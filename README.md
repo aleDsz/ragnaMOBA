@@ -50,7 +50,7 @@ Database | [MySQL Workbench 5 or newer](http://www.mysql.com/downloads/workbench
   * [CentOS](https://github.com/rathena/rathena/wiki/Install-on-Centos)
   * [Debian](https://github.com/rathena/rathena/wiki/Install-on-Debian)
   * [FreeBSD](https://github.com/rathena/rathena/wiki/Install-on-FreeBSD)
-  * [Mac OS X](https://github.com/aledsz/ragnaMOBA/wiki/Install-on-OSX)
+  * [Mac OS X](https://github.com/aledsz/ragnaMOBA/wiki/Install-on-Mac-OS-X)
 
 ## 3. Troubleshooting
 
