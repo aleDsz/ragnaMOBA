@@ -1,0 +1,15 @@
+{
+  "sourceDir": "./source/",
+  "authors": [
+    "Alexandre de Souza"
+  ],
+  "copyright": "Copyright © 2020, Alexandre de Souza",
+  "dependencies": {
+    "hibernated": "~>0.3.6"
+  },
+  "description": "rAthena is an open-source cross-platform MMORPG server.",
+  "license": "MIT",
+  "name": "rathena",
+  "targetName": "rathena",
+  "targetType": "autodetect"
+}
