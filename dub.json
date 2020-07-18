@@ -11,5 +11,9 @@
   "license": "MIT",
   "name": "rathena",
   "targetName": "rathena",
-  "targetType": "autodetect"
+  "targetType": "sourceLibrary",
+  "targetPath": "./bin",
+  "libs": [
+    "./libs/sqlite3.dll"
+  ]
 }
