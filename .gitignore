@@ -130,3 +130,20 @@ Thumbs.db
 
 # Mac
 install
+
+# Dlang
+.dub
+docs.json
+__dummy.html
+docs/
+/rathena
+rathena.so
+rathena.dylib
+rathena.dll
+rathena.a
+rathena.lib
+rathena-test-*
+*.exe
+*.o
+*.obj
+*.lst
