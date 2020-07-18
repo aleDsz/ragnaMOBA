@@ -147,3 +147,5 @@ rathena-test-*
 *.o
 *.obj
 *.lst
+/libs
+/bin
