@@ -1,10 +1,11 @@
 module rathena.database;
 
 import hibernated.core;
+import std.file : read;
 
 class Database {
-  private void getConfig() {
-
+  private void getConfig(string applicationName) {
+    auto file = read("../conf/inter_athena.conf");
   }
 
   public Connection getConnection() {
@@ -18,12 +19,12 @@ class Database {
 
         driver = new MySQLDriver();
         url = MySQLDriver.generateUrl("localhost", 3306, "test_db");
-        params = MySQLDriver.setUserAndPassword("testuser", "testpasswd");
+        params = MySQLDriver.setUserAndPassword("testuser", "123");
       } else version (USE_PGSQL) {
         import ddbc.drivers.pgsqlddbc;
 
         driver = new MySQLDriver();
-        url = PGSQLDriver.generateUrl( "/tmp", 5432, "testdb" );
+        url = PGSQLDriver.generateUrl("/tmp", 5432, "testdb" );
         params = MySQLDriver.setUserAndPassword("testuser", "testpasswd");
       }
 
@@ -38,5 +39,6 @@ class Database {
 }
 
 unittest {
-  
+  auto database = new Database();
+  database.getConfig("asdf");
 }
